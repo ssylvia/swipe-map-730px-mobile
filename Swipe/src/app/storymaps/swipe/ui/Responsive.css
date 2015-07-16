@@ -1,11 +1,11 @@
 /* Windows 8 tablet */
-@media screen and (min-width: 768px) and (orientation:landscape) {
+@media screen and (min-width: 726px) and (orientation:landscape) {
 	#contentPanel {
 		display: block !important;
 	}
 }
 
-@media screen and (max-width: 767px), screen and (orientation:portrait) { 
+@media screen and (max-width: 725px), screen and (orientation:portrait) { 
 /* TODO orientation:portrait is causing resize to mobile problem (screen is taller than wider)*/
 	#headerDesktop {
 		display: none;
